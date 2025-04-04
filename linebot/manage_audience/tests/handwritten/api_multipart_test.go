@@ -11,7 +11,7 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/Skytail-afk/line-bot-sdk-go/v8/linebot/manage_audience"
+	"github.com/line/line-bot-sdk-go/v8/linebot/manage_audience"
 )
 
 func generateUUID() (string, error) {
