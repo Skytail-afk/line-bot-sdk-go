@@ -30,7 +30,7 @@ import (
 	"net/url"
 	"path"
 
-	"github.com/line/line-bot-sdk-go/v8/linebot"
+	"github.com/Skytail-afk/line-bot-sdk-go/v8/linebot"
 )
 
 type ChannelAccessTokenAPI struct {

@@ -19,7 +19,7 @@ import (
 	"log"
 	"os"
 
-	"github.com/line/line-bot-sdk-go/v8/linebot/messaging_api"
+	"github.com/Skytail-afk/line-bot-sdk-go/v8/linebot/messaging_api"
 )
 
 func main() {

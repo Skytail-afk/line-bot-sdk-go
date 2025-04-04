@@ -6,7 +6,7 @@ import (
 	"net/http/httptest"
 	"testing"
 
-	"github.com/line/line-bot-sdk-go/v8/linebot/liff"
+	"github.com/Skytail-afk/line-bot-sdk-go/v8/linebot/liff"
 )
 
 func TestAddLIFFApp(t *testing.T) {
