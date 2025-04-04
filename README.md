@@ -2,7 +2,7 @@
 
 [![Build Status](https://github.com/line/line-bot-sdk-go/actions/workflows/go.yml/badge.svg?branch=master)](https://github.com/line/line-bot-sdk-go/actions)
 [![codecov](https://codecov.io/gh/line/line-bot-sdk-go/branch/master/graph/badge.svg)](https://codecov.io/gh/line/line-bot-sdk-go)
-[![Go Reference](https://pkg.go.dev/badge/github.com/Skytail-afk/line-bot-sdk-go/v8/linebot.svg)](https://pkg.go.dev/github.com/Skytail-afk/line-bot-sdk-go/v8/linebot)
+[![Go Reference](https://pkg.go.dev/badge/github.com/line/line-bot-sdk-go/v8/linebot.svg)](https://pkg.go.dev/github.com/line/line-bot-sdk-go/v8/linebot)
 [![Go Report Card](https://goreportcard.com/badge/github.com/line/line-bot-sdk-go)](https://goreportcard.com/report/github.com/line/line-bot-sdk-go)
 
 
@@ -23,22 +23,22 @@ This library requires Go 1.22 or later.
 ## Installation ##
 
 ```sh
-$ go get -u github.com/Skytail-afk/line-bot-sdk-go/v8/linebot
+$ go get -u github.com/line/line-bot-sdk-go/v8/linebot
 ```
 
 ## Import all packages in your code ##
 ```go
 import (
-	"github.com/Skytail-afk/line-bot-sdk-go/v8/linebot"
-	"github.com/Skytail-afk/line-bot-sdk-go/v8/linebot/channel_access_token"
-	"github.com/Skytail-afk/line-bot-sdk-go/v8/linebot/insight"
-	"github.com/Skytail-afk/line-bot-sdk-go/v8/linebot/liff"
-	"github.com/Skytail-afk/line-bot-sdk-go/v8/linebot/manage_audience"
-	"github.com/Skytail-afk/line-bot-sdk-go/v8/linebot/messaging_api"
-	"github.com/Skytail-afk/line-bot-sdk-go/v8/linebot/module"
-	"github.com/Skytail-afk/line-bot-sdk-go/v8/linebot/module_attach"
-	"github.com/Skytail-afk/line-bot-sdk-go/v8/linebot/shop"
-	"github.com/Skytail-afk/line-bot-sdk-go/v8/linebot/webhook"
+	"github.com/line/line-bot-sdk-go/v8/linebot"
+	"github.com/line/line-bot-sdk-go/v8/linebot/channel_access_token"
+	"github.com/line/line-bot-sdk-go/v8/linebot/insight"
+	"github.com/line/line-bot-sdk-go/v8/linebot/liff"
+	"github.com/line/line-bot-sdk-go/v8/linebot/manage_audience"
+	"github.com/line/line-bot-sdk-go/v8/linebot/messaging_api"
+	"github.com/line/line-bot-sdk-go/v8/linebot/module"
+	"github.com/line/line-bot-sdk-go/v8/linebot/module_attach"
+	"github.com/line/line-bot-sdk-go/v8/linebot/shop"
+	"github.com/line/line-bot-sdk-go/v8/linebot/webhook"
 )
 
 ```
@@ -47,7 +47,7 @@ import (
 
 ```go
 import (
-	"github.com/Skytail-afk/line-bot-sdk-go/v8/linebot/messaging_api"
+	"github.com/line/line-bot-sdk-go/v8/linebot/messaging_api"
 )
 
 func main() {
@@ -79,7 +79,7 @@ The LINE Messaging API primarily utilizes the JSON data format. To parse the inc
 
 ```go
 import (
-	"github.com/Skytail-afk/line-bot-sdk-go/v8/linebot/webhook"
+	"github.com/line/line-bot-sdk-go/v8/linebot/webhook"
 )
 
 cb, err := webhook.ParseRequest(os.Getenv("LINE_CHANNEL_SECRET"), req)

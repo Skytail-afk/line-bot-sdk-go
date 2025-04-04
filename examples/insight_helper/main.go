@@ -19,7 +19,7 @@ import (
 	"log"
 	"os"
 
-	"github.com/Skytail-afk/line-bot-sdk-go/v8/linebot/insight"
+	"github.com/line/line-bot-sdk-go/v8/linebot/insight"
 )
 
 func main() {
