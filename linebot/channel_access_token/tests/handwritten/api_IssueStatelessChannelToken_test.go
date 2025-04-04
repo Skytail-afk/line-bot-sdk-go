@@ -8,7 +8,7 @@ import (
 	"reflect"
 	"testing"
 
-	"github.com/line/line-bot-sdk-go/v8/linebot/channel_access_token"
+	"github.com/Skytail-afk/line-bot-sdk-go/v8/linebot/channel_access_token"
 )
 
 func TestIssueStatelessChannelTokenWithHttpInfo(t *testing.T) {

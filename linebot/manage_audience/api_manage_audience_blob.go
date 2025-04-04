@@ -34,7 +34,7 @@ import (
 	"path"
 	"strconv"
 
-	"github.com/line/line-bot-sdk-go/v8/linebot"
+	"github.com/Skytail-afk/line-bot-sdk-go/v8/linebot"
 )
 
 type ManageAudienceBlobAPI struct {

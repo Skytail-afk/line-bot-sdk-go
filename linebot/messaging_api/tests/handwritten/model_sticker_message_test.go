@@ -5,7 +5,7 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/line/line-bot-sdk-go/v8/linebot/messaging_api"
+	"github.com/Skytail-afk/line-bot-sdk-go/v8/linebot/messaging_api"
 )
 
 func TestStickerMessage(t *testing.T) {

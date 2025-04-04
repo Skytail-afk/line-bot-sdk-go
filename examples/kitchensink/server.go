@@ -26,9 +26,9 @@ import (
 	"path/filepath"
 	"runtime"
 
-	"github.com/line/line-bot-sdk-go/v8/linebot/messaging_api"
-	"github.com/line/line-bot-sdk-go/v8/linebot/webhook"
-	"github.com/line/line-bot-sdk-go/v8/util"
+	"github.com/Skytail-afk/line-bot-sdk-go/v8/linebot/messaging_api"
+	"github.com/Skytail-afk/line-bot-sdk-go/v8/linebot/webhook"
+	"github.com/Skytail-afk/line-bot-sdk-go/v8/util"
 )
 
 func main() {

@@ -4,7 +4,7 @@ import (
 	"encoding/json"
 	"testing"
 
-	"github.com/line/line-bot-sdk-go/v8/linebot/webhook"
+	"github.com/Skytail-afk/line-bot-sdk-go/v8/linebot/webhook"
 )
 
 func TestStickerMessage(t *testing.T) {
